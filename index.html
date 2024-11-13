@@ -3,101 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ezhilarasan - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Ezhilarasan C</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>				
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I’m Ezhilarasan C, a Data Science student passionate about [Your Interests].</p>
     </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Enthusiastic data science student passionate about uncovering meaningful insights from complex datasets
-		    Recently Finised my Master's in bishop heber college trichy-17 and I am looking for an entry level jobs
-            I aim to harness the power of data to solve real-wrold problems and drive informed decision-making and 
-			also ready to learn new skills and apply my existing skills and learn from others.</p>
-    </section>
-
+<!-- Experience Section -->
+<section id="Experience">
+    <h2>Process Admin</h2>
+    <div class="Experience-card">
+        <h3>Process Admin</h3>
+        <p>A short description of the project.</p>
+    </div>
+    <!-- Projects Section -->
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Text To Image Generation</h3>
-			<p> In this project text to image generation using stable diffusion models by decomposing the image formation process into
-			a squential applications of denoising autoencoders, diffusion models achieve state of theart synthesis result on image data& beyond.
-            <p>Spearheaded project focused on text to image generation using stable diffusion models
-			transformed textual descriptions into high quality images through innovative generative models apporach,
-			driving a 50% imporvement in image fidelity and user satisfaction metrics.</p>
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Text to image Generation</h3>
+            <p>A short description of the project.</p>
         </div>
-        <div class="project">
-            <h3>Salary Prediction Using Linear Regression</h3>
-            <p>This project defines the salary pediction using the age of experience and predict the salary by using machine learning models
-               called Linear Regression. This model is one of the supervised machine learning models that are used to predict the target using
-               labeled data and also finds the relationship between a dependent variable and one or more independent variables.			   .</p>
+        <div class="project-card">
+            <h3>Text to Speech u=Using Tkinter</h3>
+            <p>A short description of the project.</p>
         </div>
-        <div class="project">
-            <h3>Text To Speech Using Tkinter</h3>
-            <p>Developed and implemented a user friendly text to speech application using Tkinter GUI, Integeration gTTs python libary to convert
-			text into speech in multiple languages, streamlining communication process.</p>
+        <div class="project-card">
+            <h3>Iris Flower Classification</h3>
+            <p>A short description of the project.</p>
         </div>
-        <!-- Repeat for more projects -->
+        <!-- Add more project cards as needed -->
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>PowerBI</li>
-			<li>Machine Learning</li>
-			<li>Dashboards</li>
-			<li> Data Visualization</li>
-			<li> Pandas</li>
-			<li> Numpy</li>
-			
-        </ul>
-    </section>
-	 <section id="certifications">
-        <h2>Certifications</h2>
-        <div class="certification">
-            <h3>Introduction to Python Programming </h3>
-            <p> By Coursera</p>
-        </div>
-        <div class="certification">
-            <h3>Data Visualization</h3>
-            <p>By Kaggle</p>
-        </div>
-		<div class="certification">
-            <h3>Data Analysis with Python</h3>
-            <p>By Coursera</p>
-        </div>
-		<div class="certification">
-            <h3>Data Visualization with PowerBI</h3>
-            <p>By Great Learning</p>
-        </div>
-        <div class="certification">
-            <h3>Excel Basics for Data Analysis</h3>
-            <p>By Coursera</p>
-        </div>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="ezhilarasancea@gmail.com">ezhilarasancea@gmail.com</a></p>
-		<p>Phone: <a href="ph:+91 6369823334">+91 6369823334</a></p>
-		<p>LinkedIn: <a href="https://www.linkedin.com/in/ezhilarasan-c-3474b319b" target="_blank">View my LinkedIn profile</a></p>
-    </section>
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
